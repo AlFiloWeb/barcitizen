@@ -18,8 +18,8 @@ pipeline {
                 script {
                     sh "mkdir ~/.ssh"
                     sh "echo 'Host *' >> ~/.ssh/config"
-                    sh "echo '   StrictHostKeyChecking no' >> ~/.ssh/config" //We need to change this important
-                    sh "echo '   LogLevel ERROR' >> ~/.ssh/config"
+                    sh "echo 'StrictHostKeyChecking no' >> ~/.ssh/config" //We need to change this important
+                    sh "echo 'LogLevel ERROR' >> ~/.ssh/config"
                 }
             }
         }
