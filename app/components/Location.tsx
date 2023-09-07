@@ -12,7 +12,7 @@ export default function Location() {
           El evento se celebrará en Umbracle dentro del complejo de la Ciudad de
           las Artes y las Ciéncias de Valencia.
         </p>
-        <p className="text-2xl font-semibold mt-5 text-center mt-10 mb-5 sm:mt-20 sm:mb-10">
+        <p className="text-2xl font-semibold text-center mt-10 mb-5 sm:mt-20 sm:mb-10">
           Dirección: Av. del Professor López Piñero, CP. 46013 Valencia.
         </p>
         <div className="flex justify-center w-full">
