@@ -1,0 +1,55 @@
+export default function Location() {
+  return (
+    <section id="location">
+      <div>
+        <p className="font-agencyGothicCTBold">Localización</p>
+        <p>
+          El evento se celebrará en Umbracle dentro del complejo de la Ciudad
+          de las Artes y las Ciéncias de Valencia.
+          <br />
+          Av. del Professor López Piñero
+          <br />
+          46013 Valencia.
+        </p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.6016923639004!2d-0.35913170537693095!3d39.45573374037337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6049a182813f95%3A0x37544e0997d79176!2sL&#39;%20Umbracle!5e0!3m2!1ses!2ses!4v1694095038332!5m2!1ses!2ses"
+          width="600"
+          height="450"
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div>
+        <p className="font-agencyGothicCTBold">Transporte Gratuito solo de Ida</p>
+        <p>
+          Ponemos a vuestra disposición un transporte gratuito{" "}
+          <b>(plazas limitadas) solo de ida</b> desde las siguientes
+          localizaciones a diferentes horas:
+        </p>
+        <div>
+          <p>A las 16:00 desde Estación del norte</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.0924759224577!2d-0.37925862280389666!3d39.46723951287852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f27f56441d9%3A0x1b872da159a8de84!2sEstaci%C3%B3%20del%20Nord!5e0!3m2!1ses!2ses!4v1694095219289!5m2!1ses!2ses"
+            width="600"
+            height="450"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div>
+          <p>A las 16:30 desde Joaquín Sorolla</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.3778545548694!2d-0.38420032280408056!3d39.4607917132638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f37279bddf1%3A0x65729220e9a7ae2a!2sJoaqu%C3%ADn%20Sorolla!5e0!3m2!1ses!2ses!4v1694096216656!5m2!1ses!2ses"
+            width="600"
+            height="450"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  );
+}
