@@ -16,7 +16,7 @@ function classNames(...classes: string[]) {
 
 export default function Navigation() {
   return (
-    <Disclosure as="nav" className="bg-black sticky top-0">
+    <Disclosure as="nav" className="bg-black sticky top-0 z-10">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-screen-xl px-2 sm:px-6 lg:px-8">
