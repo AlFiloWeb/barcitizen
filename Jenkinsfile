@@ -16,7 +16,7 @@ pipeline {
         stage('Prepare SSH') {
             steps {
                 script {
-                    //sh "mkdir ~/.ssh"
+                    sh "mkdir ~/.ssh"
                     sh "echo 'Host *' >> ~/.ssh/config"
                     sh "echo 'StrictHostKeyChecking no' >> ~/.ssh/config"
                     sh "echo 'LogLevel ERROR' >> ~/.ssh/config"
