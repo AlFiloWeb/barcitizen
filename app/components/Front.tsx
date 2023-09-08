@@ -89,7 +89,7 @@ export default function Front() {
               alt="logo organización Al Filo"
             />
           </div>
-          <div className="basis-3/12">
+          <div className="basis-3/12 p-[2%]">
             <Image
               src="/images/krakenostrum-logo.png"
               width={500}

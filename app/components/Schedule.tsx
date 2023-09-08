@@ -15,7 +15,7 @@ export default function Schedule() {
           <li>19:45. Puesta de Sól New Babbage.</li>
           <li>
             21:00. <span className="text-[#FF0026]">30K</span> Castillo de fuegos artificiales a cargo de la pirotécnia
-            Cavaller y fin del evento.
+            Caballer y fin del evento.
           </li>
         </ul>
       </div>
