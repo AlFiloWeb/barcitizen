@@ -30,8 +30,8 @@ export default function Schedule() {
             </li>
           </ul>
         </div>
-        <div className="w-full title-location self-start pl-10 pb-40">
-        <p className="font-agencyGothicCTBold text-6xl sm:text-9xl text-white">
+        <div className="w-full flex justify-center sm:justify-start title-location self-start sm:pl-10 pb-40">
+        <p className="font-agencyGothicCTBold text-7xl sm:text-9xl text-white">
           Localización
         </p>
         </div>
