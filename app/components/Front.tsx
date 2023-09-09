@@ -58,7 +58,7 @@ export default function Front() {
     >
       <div>
         <Image
-          src="/images/oficial-logo.png"
+          src="/images/oficial-logo.webp"
           width={500}
           height={500}
           alt="bar citizen valencia logo"
@@ -83,7 +83,7 @@ export default function Front() {
           <div className="flex justify-between items-center gap-5 px-5">
             <div className="basis-3/12">
               <Image
-                src="/images/umbracle-logo.png"
+                src="/images/umbracle-logo.webp"
                 width={500}
                 height={500}
                 alt="logo l'umbreacle"
@@ -91,7 +91,7 @@ export default function Front() {
             </div>
             <div className="basis-3/12">
               <Image
-                src="/images/alfilo-logo.png"
+                src="/images/alfilo-logo.webp"
                 width={500}
                 height={500}
                 alt="logo organización Al Filo"
@@ -99,7 +99,7 @@ export default function Front() {
             </div>
             <div className="basis-3/12 p-[2%]">
               <Image
-                src="/images/krakenostrum-logo.png"
+                src="/images/krakenostrum-logo.webp"
                 width={500}
                 height={500}
                 alt="logo organización Krakenostrum"
@@ -107,7 +107,7 @@ export default function Front() {
             </div>
             <div className="basis-3/12">
               <Image
-                src="/images/gabol-logo.png"
+                src="/images/gabol-logo.webp"
                 width={500}
                 height={500}
                 alt="logo gabol"

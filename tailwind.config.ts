@@ -21,8 +21,8 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'umbracle-1': "url('/images/umbracle-bg-1.png')",
-        'umbracle-2': "url('/images/umbracle-bg-2.png')",
+        'umbracle-1': "url('/images/umbracle-bg-1.webp')",
+        'umbracle-2': "url('/images/umbracle-bg-2.webp')",
       },
       fontFamily: {
         sans: ['var(--font-inter)'],

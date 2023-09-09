@@ -37,7 +37,7 @@ export default function Navigation() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
-                    src="/images/bar-citizen-letters.png"
+                    src="/images/bar-citizen-letters.webp"
                     alt="Bar citizen"
                   />
                 </div>
