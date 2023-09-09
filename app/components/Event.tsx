@@ -42,6 +42,7 @@ export default function Event() {
         src="https://www.youtube.com/embed/rGrvUyF98yE?si=mA1rgB6z7qVJZZvI"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        loading="lazy"
         allowFullScreen
       ></iframe>
     </section>
