@@ -6,14 +6,10 @@ export default function Event() {
     >
       <div className="w-full flex flex-wrap xl:flex-nowrap items-center gap-10 px-20 bg-[#64748B] ">
         <p className="text-2xl font-semibold my-10 text-justify xl:basis-6/12 basis-full text-white">
-          El día 6 de Abril os esperamos a toda la comunidad de Star Citizen en
-          el evento Bar Citizen Valencia 2024
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et
-          ante quis leo viverra luctus. Integer volutpat purus ut ultricies
-          pellentesque. Sed ut tortor at lectus efficitur elementum a et lectus.
-          Fusce nibh metus, volutpat sit amet nisi et, efficitur ullamcorper
-          ligula. Vivamus non ultricies diam, eu hendrerit urna.
+        ¡Únete a la emoción de Star Citizen en el Bar Citizen Valencia 2024 Este evento único, organizado por las comunidades de Al Filo y Krakenostrum tendrá lugar el 6 de abril de 2024 en la espectacular discoteca L'Umbracle, ubicada en la Ciudad de las Artes y las Ciencias de Valencia.
+        <br/><br/>L'Umbracle, con su ambiente moderno y su impresionante escenario, proporcionará el telón de fondo perfecto para este evento épico. Ya sea que seas un veterano curtido en las estrellas o un recién llegado entusiasmado por unirte a esta comunidad, te invitamos a unirte a nosotros y celebrar la exploración, el comercio y la amistad en este emocionante Bar Citizen.
+        <br/><br/>Ven y comparte tu pasión por Star Citizen con otros ciudadanos galácticos. Disfruta de charlas, demostraciones en vivo y la compañía de fanáticos como tú.
+        <br/>¡No te lo pierdas! ¡Que la fuerza de las estrellas esté contigo!
         </p>
         <div className="shadow-black xl:basis-6/12 basis-full">
           <iframe
