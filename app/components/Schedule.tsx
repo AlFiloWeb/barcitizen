@@ -12,7 +12,7 @@ export default function Schedule() {
             Programación
           </p>
         </div>
-        <div className="bg-no-repeat bg-cover bg-bottom text-white p-5 sm:px-20 pb-20">
+        <div className="bg-no-repeat bg-cover bg-bottom text-white p-5 sm:px-20 pb-60">
           <ul className="list-disc text-2xl sm:text-4xl font-bold ml-8 flex flex-col gap-10 text-shadow">
             <li>17:00. Apertura de puertas.</li>
             <li>17:05. Photocall.</li>
@@ -30,7 +30,12 @@ export default function Schedule() {
             </li>
           </ul>
         </div>
-      </div>
+        <div className="w-full title-location self-start pl-10 pb-40">
+        <p className="font-agencyGothicCTBold text-6xl sm:text-9xl text-white">
+          Localización
+        </p>
+        </div>
+      </div>      
     </section>
   );
 }
