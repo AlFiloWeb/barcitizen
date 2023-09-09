@@ -5,7 +5,7 @@ export default function Schedule() {
         className="w-full relative bg-blur flex justify-center items-center
       before:bg-umbracle-2 before:bg-no-repeat before:bg-cover 
       before:bg-bottom before:absolute before:-z-10 before:left-0 before:right-0
-      before:h-full before:w-full before:block"
+      before:h-full before:w-full before:block py-2"
       >
         <div className="bg-umbracle-2 bg-no-repeat bg-cover bg-bottom text-white p-5 sm:p-20 pt-20">
           <p className="font-agencyGothicCTBold text-7xl sm:text-9xl text-shadow mb-10 sm:mb-20">
