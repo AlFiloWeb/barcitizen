@@ -37,3 +37,12 @@ body {
   -ms-filter: blur(10px);
   filter: blur(10px);
 }
+
+.title-event {
+  background-color: transparent;
+  background-image: linear-gradient(-10deg, #64748B 48%, rgba(255,0,0,0) 50%);
+}
+.title-schedule {
+  background-color: transparent;
+  background-image: linear-gradient(10deg, rgba(255,0,0,0) 48%,#64748B 50%);
+}

@@ -65,12 +65,12 @@ export default function Front() {
         />
       </div>
       <div
-        className="w-full relative bg-blur flex justify-center items-center
+        className="w-full relative flex flex-col justify-center items-center
       before:bg-umbracle-1 before:bg-no-repeat before:bg-cover 
       before:bg-bottom before:absolute before:-z-10 before:left-0 before:right-0
-      before:h-full before:w-full before:block py-2"
+      before:h-full before:w-full before:block"
       >
-        <div className="bg-umbracle-1 bg-no-repeat bg-cover bg-bottom max-w-screen-xl m-auto w-full py-12 flex flex-col justify-center items-center gap-12">
+        <div className="bg-no-repeat bg-cover bg-bottom max-w-screen-xl m-auto w-full py-12 flex flex-col justify-center items-center gap-12">
           <p className="font-agencyGothicCTBold text-9xl text-white text-shadow">
             Faltan:
           </p>
@@ -113,6 +113,16 @@ export default function Front() {
                 alt="logo gabol"
               />
             </div>
+          </div>
+        </div>
+        <div className="w-full title-event pl-10 pb-60 flex justify-center sm:justify-start">
+          <div>
+            <p className="font-agencyGothicCTBold text-7xl md:text-9xl text-white text-center">
+              bar citizen
+            </p>
+            <p className="font-agencyGothicCTBold text-7xl md:text-9xl text-white text-center">
+              valencia 2024
+            </p>
           </div>
         </div>
       </div>
