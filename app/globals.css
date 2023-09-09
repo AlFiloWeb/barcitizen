@@ -37,3 +37,20 @@ body {
   -ms-filter: blur(10px);
   filter: blur(10px);
 }
+
+.title-event {
+  background-color: transparent;
+  background-image: linear-gradient(-10deg, #64748B 48%, rgba(255,0,0,0) 50%);
+}
+.title-schedule {
+  background-color: transparent;
+  background-image: linear-gradient(10deg, rgba(255,0,0,0) 48%,#64748B 50%);
+}
+.title-location {
+  background-color: transparent;
+  background-image: linear-gradient(-10deg, white 48%, rgba(255,0,0,0) 50%);
+}
+.wrapper-front-logo {
+  background: rgb(255,255,255);
+  background: linear-gradient(rgba(255,255,255,0) 10%, rgba(0,0,0,0.8) 50%, rgba(255,255,255,0) 90%);
+}

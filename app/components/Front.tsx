@@ -65,12 +65,12 @@ export default function Front() {
         />
       </div>
       <div
-        className="w-full relative bg-blur flex justify-center items-center
+        className="w-full relative flex flex-col justify-center items-center
       before:bg-umbracle-1 before:bg-no-repeat before:bg-cover 
       before:bg-bottom before:absolute before:-z-10 before:left-0 before:right-0
-      before:h-full before:w-full before:block py-2"
+      before:h-full before:w-full before:block"
       >
-        <div className="bg-umbracle-1 bg-no-repeat bg-cover bg-bottom max-w-screen-xl m-auto w-full py-12 flex flex-col justify-center items-center gap-12">
+        <div className="w-full bg-no-repeat bg-cover bg-bottom py-12 flex flex-col justify-center items-center gap-12">
           <p className="font-agencyGothicCTBold text-9xl text-white text-shadow">
             Faltan:
           </p>
@@ -80,39 +80,51 @@ export default function Front() {
             minutes={minutes}
             seconds={seconds}
           />
-          <div className="flex justify-between items-center gap-5 px-5">
-            <div className="basis-3/12">
-              <Image
-                src="/images/umbracle-logo.webp"
-                width={500}
-                height={500}
-                alt="logo l'umbreacle"
-              />
+          <div className="wrapper-front-logo w-full flex justify-center items-center gap-5 px-5">
+            <div className="flex justify-between items-center max-w-6xl w-full">
+              <div className="basis-3/12">
+                <Image
+                  src="/images/umbracle-logo.webp"
+                  width={500}
+                  height={500}
+                  alt="logo l'umbreacle"
+                />
+              </div>
+              <div className="basis-3/12">
+                <Image
+                  src="/images/alfilo-logo.webp"
+                  width={500}
+                  height={500}
+                  alt="logo organización Al Filo"
+                />
+              </div>
+              <div className="basis-3/12 p-[2%]">
+                <Image
+                  src="/images/krakenostrum-logo.webp"
+                  width={500}
+                  height={500}
+                  alt="logo organización Krakenostrum"
+                />
+              </div>
+              <div className="basis-3/12">
+                <Image
+                  src="/images/gabol-logo.webp"
+                  width={500}
+                  height={500}
+                  alt="logo gabol"
+                />
+              </div>
             </div>
-            <div className="basis-3/12">
-              <Image
-                src="/images/alfilo-logo.webp"
-                width={500}
-                height={500}
-                alt="logo organización Al Filo"
-              />
-            </div>
-            <div className="basis-3/12 p-[2%]">
-              <Image
-                src="/images/krakenostrum-logo.webp"
-                width={500}
-                height={500}
-                alt="logo organización Krakenostrum"
-              />
-            </div>
-            <div className="basis-3/12">
-              <Image
-                src="/images/gabol-logo.webp"
-                width={500}
-                height={500}
-                alt="logo gabol"
-              />
-            </div>
+          </div>
+        </div>
+        <div className="w-full title-event pl-10 pb-60 flex justify-center sm:justify-start">
+          <div>
+            <p className="font-agencyGothicCTBold text-7xl md:text-9xl text-white text-center">
+              bar citizen
+            </p>
+            <p className="font-agencyGothicCTBold text-7xl md:text-9xl text-white text-center">
+              valencia 2024
+            </p>
           </div>
         </div>
       </div>
