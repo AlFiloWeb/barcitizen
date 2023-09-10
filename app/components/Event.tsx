@@ -17,11 +17,11 @@ export default function Event() {
             ¡Únete a la emoción de Star Citizen en el Bar Citizen Valencia 2024
             Este evento único, organizado por las comunidades de Al Filo y
             Krakenostrum tendrá lugar el 6 de abril de 2024 en la espectacular
-            discoteca L'Umbracle, ubicada en la Ciudad de las Artes y las
+            discoteca L&apos;Umbracle, ubicada en la Ciudad de las Artes y las
             Ciencias de Valencia.
             <br />
             <br />
-            L'Umbracle, con su ambiente moderno y su impresionante escenario,
+            L&apos;Umbracle, con su ambiente moderno y su impresionante escenario,
             proporcionará el telón de fondo perfecto para este evento épico. Ya
             sea que seas un veterano curtido en las estrellas o un recién
             llegado entusiasmado por unirte a esta comunidad, te invitamos a
