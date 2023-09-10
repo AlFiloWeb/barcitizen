@@ -82,15 +82,7 @@ export default function Front() {
           />
           <div className="wrapper-front-logo w-full flex justify-center items-center gap-5 px-5">
             <div className="flex justify-between items-center max-w-6xl w-full">
-              <div className="basis-3/12">
-                <Image
-                  src="/images/umbracle-logo.webp"
-                  width={500}
-                  height={500}
-                  alt="logo l'umbreacle"
-                />
-              </div>
-              <div className="basis-3/12">
+              <div className="basis-1/5">
                 <Image
                   src="/images/alfilo-logo.webp"
                   width={500}
@@ -98,7 +90,7 @@ export default function Front() {
                   alt="logo organización Al Filo"
                 />
               </div>
-              <div className="basis-3/12 p-[2%]">
+              <div className="basis-1/5 p-[2%]">
                 <Image
                   src="/images/krakenostrum-logo.webp"
                   width={500}
@@ -106,7 +98,15 @@ export default function Front() {
                   alt="logo organización Krakenostrum"
                 />
               </div>
-              <div className="basis-3/12">
+              <div className="basis-1/5">
+                <Image
+                  src="/images/umbracle-logo.webp"
+                  width={500}
+                  height={500}
+                  alt="logo l'umbreacle"
+                />
+              </div>
+              <div className="basis-1/5">
                 <Image
                   src="/images/gabol-logo.webp"
                   width={500}
@@ -114,19 +114,18 @@ export default function Front() {
                   alt="logo gabol"
                 />
               </div>
+              <div className="basis-1/5 p-[3%]">
+                <Image
+                  src="/images/camping-logo.webp"
+                  width={500}
+                  height={500}
+                  alt="logo camping puig campana"
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div className="w-full title-event pl-10 pb-60 flex justify-center sm:justify-start">
-          <div>
-            <p className="font-agencyGothicCTBold text-7xl md:text-9xl text-white text-center">
-              bar citizen
-            </p>
-            <p className="font-agencyGothicCTBold text-7xl md:text-9xl text-white text-center">
-              valencia 2024
-            </p>
-          </div>
-        </div>
+        <div className="w-full h-60 event-separation"></div>
       </div>
     </section>
   );

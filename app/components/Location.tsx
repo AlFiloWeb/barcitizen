@@ -5,6 +5,9 @@ export default function Location() {
       className="max-w-screen-xl m-auto w-full flex flex-col justify-center items-center px-5 py-10 sm:py-20 pt-20"
     >
       <div>
+        <p className="font-agencyGothicCTBold text-7xl w-full text-right sm:text-9xl pr-20 text-black">
+          Localización
+        </p>
         <p className="text-2xl font-semibold text-center mt-10 mb-10">
           El evento se celebrará en Umbracle dentro del complejo de la Ciudad de
           las Artes y las Ciéncias de Valencia.
