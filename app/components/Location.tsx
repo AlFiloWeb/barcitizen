@@ -2,7 +2,7 @@ export default function Location() {
   return (
     <section
       id="location"
-      className="max-w-screen-xl m-auto w-full flex flex-col justify-center items-center px-5 py-10 sm:py-20 pt-20"
+      className="max-w-screen-xl m-auto w-full flex flex-col justify-center items-center"
     >
       <div>
         <p className="font-agencyGothicCTBold text-7xl w-full text-right sm:text-9xl pr-20 text-black">

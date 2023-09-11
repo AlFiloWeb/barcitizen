@@ -7,6 +7,12 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+    },
     extend: {
       animation: {
         flip:'flip 1s cubic-bezier(0, 0, 0.2, 1) infinite'
@@ -22,7 +28,7 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'umbracle-1': "url('/images/umbracle-bg-1.webp')",
-        'umbracle-2': "url('/images/umbracle-bg-2.webp')",
+        'new-babbage-1': "url('/images/new-babbage-bg-1.webp')",
       },
       fontFamily: {
         sans: ['var(--font-inter)'],
