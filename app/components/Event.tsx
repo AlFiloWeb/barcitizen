@@ -1,16 +1,16 @@
 export default function Event() {
   return (
-    <section id="event" className="w-full">
+    <section id="event" className="w-full flex justify-center p-5">
       <div className="max-w-screen-2xl w-full flex flex-col justify-center items-center">
         <div className="w-full flex justify-end">
-          <p className="font-agencyGothicCTBold text-7xl md:text-9xl text-[#094A67] text-center">
+          <p className="font-agencyGothicCTBold text-7xl md:text-9xl text-[#094A67] text-right">
             bar citizen
             <br />
             valencia 2024
           </p>
         </div>
-        <div className="max-w-screen-2xl w-full flex flex-wrap xl:flex-nowrap justify-center items-center gap-10 px-20 sm:px-0">
-          <p className="text-2xl font-semibold my-10 text-justify md:text-left xl:basis-6/12 basis-full">
+        <div className="max-w-screen-2xl w-full flex flex-wrap xl:flex-nowrap justify-center items-center gap-10">
+          <p className="text-2xl font-semibold my-5 2xl:text-justify md:text-left xl:basis-6/12 basis-full xl:order-2">
             ¡Hola Ciudadano del verso! quieres sentir toda la emoción de la
             comunidad española de Star Citizen?, Al filo y Krakenostrum con la
             colaboracion de CIG, estan montando el Bar Citizen mas grande que se
@@ -31,7 +31,7 @@ export default function Event() {
             Ven y comparte tu pasión por Star Citizen con otros ciudadanos
             galácticos como tú!.¡No te lo pierdas!
           </p>
-          <div className="shadow-black xl:basis-6/12 basis-full">
+          <div className="shadow-2xl shadow-black mb-20 xl:mb-0 basis-full xl:basis-6/12">
             <iframe
               className="aspect-video w-full h-auto"
               width="560"

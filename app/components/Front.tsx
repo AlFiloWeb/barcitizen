@@ -73,7 +73,7 @@ export default function Front() {
             seconds={seconds}
           />
           <div className="wrapper-front-logo w-full flex justify-center items-center gap-5">
-            <div className="flex justify-between items-center max-w-6xl w-full">
+            <div className="flex justify-between items-center max-w-6xl w-full p-5">
               <div className="basis-1/5">
                 <Image
                   src="/images/alfilo-logo.webp"

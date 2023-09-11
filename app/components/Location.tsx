@@ -2,10 +2,10 @@ export default function Location() {
   return (
     <section
       id="location"
-      className="max-w-screen-xl m-auto w-full flex flex-col justify-center items-center"
+      className="relative flex justify-center p-5 pb-20"
     >
-      <div>
-        <p className="font-agencyGothicCTBold text-7xl w-full text-right sm:text-9xl pr-20 text-black">
+      <div className="max-w-screen-2xl w-full">
+        <p className="font-agencyGothicCTBold text-7xl w-full text-right sm:text-9xl text-[#4D1B75]">
           Localización
         </p>
         <p className="text-2xl font-semibold text-center mt-10 mb-10">
@@ -68,6 +68,7 @@ export default function Location() {
           </div>
         </div>
       </div>
+      <div className="absolute w-full h-20 bottom-0 bg-gradient-to-t from-black from-[0%] to-transparent to-[40%]"></div>
     </section>
   );
 }
