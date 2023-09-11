@@ -20,7 +20,7 @@ export default function Event() {
             más! para disfrutar como nunca de nuestro amado Star Citizen, entre
             otras actividades!
             <br />
-            El 6 de Abril de 2024 en la discoteca L'ubracle, en Valencia, con su
+            El 6 de Abril de 2024 en la discoteca L&apos;ubracle, en Valencia, con su
             ambiente moderno y su impresionante escenario al mas puro estilo New
             Babbage será el lugar del evento, La entrada y Parking serán
             GRATUITOS y tambien el acceso a todas las actividades del mismo.
