@@ -31,7 +31,7 @@ export default function Event() {
             Ven y comparte tu pasión por Star Citizen con otros ciudadanos
             galácticos como tú!.¡No te lo pierdas!
           </p>
-          <div className="shadow-2xl shadow-black mb-20 xl:mb-0 basis-full xl:basis-6/12">
+          <div className="shadow-xl :shadow-2xl shadow-black mb-20 xl:mb-0 basis-full xl:basis-6/12">
             <iframe
               className="aspect-video w-full h-auto"
               width="560"

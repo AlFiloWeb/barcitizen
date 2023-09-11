@@ -4,8 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 216, 221, 222;
+  --background-end-rgb: 216, 221, 222;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,16 +24,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
-
-.text-shadow {
-  text-shadow: 2px 2px black;
-}
-
-.inversal-section-separation {
-  background: linear-gradient(to bottom right, black 50%,  transparent 51%);
-}
-
-.section-separation {
-  background: linear-gradient(to bottom right, white 51%,  black 50%);
 }
