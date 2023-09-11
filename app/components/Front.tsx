@@ -9,9 +9,8 @@ export default function Front() {
   const [hours, setHours] = useState<number>(0);
   const [minutes, setMinutes] = useState<number>(0);
   const [seconds, setSeconds] = useState<number>(0);
-  const [message, setMessage] = useState<string>("");
-  const str = "2024-04-06";
-  var date1 = new Date(str);
+  const eventDate = "2024-04-06";
+  var date1 = new Date(eventDate);
   var date2 = new Date();
   var diff = Math.abs(date1.getTime() - date2.getTime());
   var time = Math.ceil(diff / (1000 * 3600 * 24));
@@ -38,7 +37,6 @@ export default function Front() {
 
       if (difference <= 0) {
         clearInterval(updateTime);
-        setMessage("The Launch Has Started");
         setDays(0);
         setHours(0);
         setMinutes(0);
@@ -52,25 +50,19 @@ export default function Front() {
   }, [time]);
 
   return (
-    <section
-      id="front"
-      className="w-full flex flex-col justify-center items-center pt-10"
-    >
-      <div>
+    <section id="front" className="w-full flex flex-col">
+      <div className="w-full relative flex justify-center">
         <Image
           src="/images/oficial-logo.webp"
           width={500}
           height={500}
           alt="bar citizen valencia logo"
         />
+        <div className="absolute w-full h-20 bottom-0 bg-gradient-to-t from-black from-[0%] to-transparent to-[40%]"></div>
       </div>
-      <div
-        className="w-full relative flex flex-col justify-center items-center
-      before:bg-umbracle-1 before:bg-no-repeat before:bg-cover 
-      before:bg-bottom before:absolute before:-z-10 before:left-0 before:right-0
-      before:h-full before:w-full before:block"
-      >
-        <div className="w-full bg-no-repeat bg-cover bg-bottom py-12 flex flex-col justify-center items-center gap-12">
+      <div className="w-full relative flex flex-col justify-center items-center bg-umbracle-1 bg-bottom bg-cover">
+        <div className="absolute w-full h-60 top-0 bg-gradient-to-b from-black to-transparent"></div>
+        <div className="w-full bg-no-repeat bg-cover bg-bottom py-12 flex flex-col justify-center items-center gap-12 z-10">
           <p className="font-agencyGothicCTBold text-9xl text-white text-shadow">
             Faltan:
           </p>
@@ -80,8 +72,8 @@ export default function Front() {
             minutes={minutes}
             seconds={seconds}
           />
-          <div className="wrapper-front-logo w-full flex justify-center items-center gap-5 px-5">
-            <div className="flex justify-between items-center max-w-6xl w-full">
+          <div className="wrapper-front-logo w-full flex justify-center items-center gap-5">
+            <div className="flex justify-between items-center max-w-6xl w-full p-5">
               <div className="basis-1/5">
                 <Image
                   src="/images/alfilo-logo.webp"
@@ -125,8 +117,9 @@ export default function Front() {
             </div>
           </div>
         </div>
-        <div className="w-full h-60 event-separation"></div>
+        <div className="absolute w-full h-60 bottom-0 bg-gradient-to-t from-black to-transparent"></div>
       </div>
+      <div className="bg-gradient-to-br from-black from-[50%] to-transparent to-[51%] h-32"></div>
     </section>
   );
 }
