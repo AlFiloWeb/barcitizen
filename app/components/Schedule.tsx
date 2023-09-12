@@ -4,7 +4,7 @@ export default function Schedule() {
       <div className="w-full relative bg-new-babbage-1 bg-bottom bg-cover -z-30">
         <div className="absolute w-full h-60 top-0 bg-gradient-to-b from-black to-transparent -z-20"></div>
         <div className="bg-gradient-to-bl from-bg-principal from-[50%] to-transparent to-[51%] h-32"></div>
-        <div className="flex justify-center p-5 xl:p-0">
+        <div className="flex justify-center p-5 2xl:p-0">
           <div className="max-w-screen-2xl w-full text-white">
             <p className="font-agencyGothicCTBold text-7xl w-full sm:text-9xl text-shadow text-white">
               Programación
