@@ -1,6 +1,6 @@
 export default function Event() {
   return (
-    <section id="event" className="w-full flex justify-center p-5 2xl:p-0">
+    <section id="event" className="w-full flex justify-center p-5">
       <div className="max-w-screen-2xl w-full flex flex-col justify-center items-center">
         <div className="w-full flex justify-end">
           <p className="font-agencyGothicCTBold text-7xl md:text-9xl text-[#094A67] text-right">
