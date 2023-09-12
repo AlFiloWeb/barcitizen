@@ -58,11 +58,10 @@ export default function Front() {
           height={500}
           alt="bar citizen valencia logo"
         />
-        <div className="absolute w-full h-20 bottom-0 bg-gradient-to-t from-black from-[0%] to-transparent to-[40%]"></div>
       </div>
       <div className="w-full relative flex flex-col justify-center items-center bg-umbracle-1 bg-bottom bg-cover">
         <div className="absolute w-full h-60 top-0 bg-gradient-to-b from-black to-transparent"></div>
-        <div className="w-full bg-no-repeat bg-cover bg-bottom py-12 flex flex-col justify-center items-center gap-12 z-10">
+        <div className="w-full bg-no-repeat bg-cover bg-bottom pt-12 flex flex-col justify-center items-center gap-12 z-10">
           <p className="font-agencyGothicCTBold text-9xl text-white text-shadow">
             Faltan:
           </p>
@@ -73,7 +72,7 @@ export default function Front() {
             seconds={seconds}
           />
           <div className="wrapper-front-logo w-full flex justify-center items-center gap-5">
-            <div className="flex justify-between items-center max-w-6xl w-full p-5">
+            <div className="flex justify-between items-center max-w-6xl w-full p-5 xl:p-0 pb-0">
               <div className="basis-1/5">
                 <Image
                   src="/images/alfilo-logo.webp"
@@ -82,7 +81,7 @@ export default function Front() {
                   alt="logo organización Al Filo"
                 />
               </div>
-              <div className="basis-1/5 p-[2%]">
+              <div className="basis-1/5">
                 <Image
                   src="/images/krakenostrum-logo.webp"
                   width={500}
@@ -106,7 +105,7 @@ export default function Front() {
                   alt="logo gabol"
                 />
               </div>
-              <div className="basis-1/5 p-[3%]">
+              <div className="basis-1/5">
                 <Image
                   src="/images/camping-logo.webp"
                   width={500}

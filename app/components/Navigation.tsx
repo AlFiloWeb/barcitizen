@@ -19,9 +19,9 @@ export default function Navigation() {
     <Disclosure as="nav" className="bg-black sticky top-0 z-30">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-screen-xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-screen-2xl px-2 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="absolute -inset-0.5" />
@@ -33,38 +33,84 @@ export default function Navigation() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex flex-shrink-0 items-center">
+              <div className="flex flex-1 items-center justify-center">
+                <div className="flex flex-shrink-0 items-center lg:hidden">
                   <img
                     className="h-8 w-auto"
                     src="/images/bar-citizen-letters.webp"
                     alt="Bar citizen"
                   />
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
+                <div className="hidden lg:flex">
+                  <div className="w-[25%] flex justify-end items-center gap-2">
+                    <a
+                      key={navigation[0].name}
+                      href={navigation[0].href}
+                      className={classNames(
+                        navigation[0].current
+                          ? "bg-gray-900 text-white"
+                          : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        "rounded-md px-3 py-2 text-sm font-medium"
+                      )}
+                      aria-current={navigation[0].current ? "page" : undefined}
+                    >
+                      {navigation[0].name}
+                    </a>
+                    <a
+                      key={navigation[1].name}
+                      href={navigation[1].href}
+                      className={classNames(
+                        navigation[1].current
+                          ? "bg-gray-900 text-white"
+                          : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        "rounded-md px-3 py-2 text-sm font-medium"
+                      )}
+                      aria-current={navigation[1].current ? "page" : undefined}
+                    >
+                      {navigation[1].name}
+                    </a>
+                  </div>
+                  <div className="w-[50%] flex justify-center items-center">
+                    <img
+                      className="h-8 w-auto"
+                      src="/images/bar-citizen-letters.webp"
+                      alt="Bar citizen"
+                    />
+                  </div>
+                  <div className="w-[25%] flex gap-2">
+                    <a
+                      key={navigation[2].name}
+                      href={navigation[2].href}
+                      className={classNames(
+                        navigation[2].current
+                          ? "bg-gray-900 text-white"
+                          : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        "rounded-md px-3 py-2 text-sm font-medium"
+                      )}
+                      aria-current={navigation[2].current ? "page" : undefined}
+                    >
+                      {navigation[2].name}
+                    </a>
+                    <a
+                      key={navigation[3].name}
+                      href={navigation[3].href}
+                      className={classNames(
+                        navigation[3].current
+                          ? "bg-gray-900 text-white"
+                          : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        "rounded-md px-3 py-2 text-sm font-medium"
+                      )}
+                      aria-current={navigation[3].current ? "page" : undefined}
+                    >
+                      {navigation[3].name}
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="lg:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
                 <Disclosure.Button
