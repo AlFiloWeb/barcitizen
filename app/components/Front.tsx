@@ -4,6 +4,14 @@ import Image from "next/image";
 import { TimerContainer } from "./TimerContainer";
 import { useEffect, useState } from "react";
 
+const logos = [
+  {src: "/images/alfilo-logo.webp", alt: "logo organización Al Filo"},
+  {src: "/images/krakenostrum-logo.webp", alt: "logo organización Krakenostrum"},
+  {src: "/images/umbracle-logo.webp", alt: "logo l'umbreacle"},
+  {src: "/images/gabol-logo.webp", alt: "logo gabol"},
+  {src: "/images/camping-logo.webp", alt: "logo camping puig campana"},
+];
+
 export default function Front() {
   const [days, setDays] = useState<number>(0);
   const [hours, setHours] = useState<number>(0);
@@ -73,46 +81,16 @@ export default function Front() {
           />
           <div className="wrapper-front-logo w-full flex justify-center items-center gap-5">
             <div className="flex justify-between items-center max-w-6xl w-full p-5 xl:p-0 pb-0">
-              <div className="basis-1/5">
+              {logos.map((item) => (
+                <div>
                 <Image
-                  src="/images/alfilo-logo.webp"
+                  src={item.src}
                   width={500}
                   height={500}
-                  alt="logo organización Al Filo"
+                  alt={item.alt}
                 />
               </div>
-              <div className="basis-1/5">
-                <Image
-                  src="/images/krakenostrum-logo.webp"
-                  width={500}
-                  height={500}
-                  alt="logo organización Krakenostrum"
-                />
-              </div>
-              <div className="basis-1/5">
-                <Image
-                  src="/images/umbracle-logo.webp"
-                  width={500}
-                  height={500}
-                  alt="logo l'umbreacle"
-                />
-              </div>
-              <div className="basis-1/5">
-                <Image
-                  src="/images/gabol-logo.webp"
-                  width={500}
-                  height={500}
-                  alt="logo gabol"
-                />
-              </div>
-              <div className="basis-1/5">
-                <Image
-                  src="/images/camping-logo.webp"
-                  width={500}
-                  height={500}
-                  alt="logo camping puig campana"
-                />
-              </div>
+              ))}
             </div>
           </div>
         </div>
