@@ -64,7 +64,6 @@ export default function Location() {
           </div>
         </div>
       </div>
-      <div className="absolute w-full h-20 bottom-0 bg-gradient-to-t from-black from-[0%] to-transparent to-[40%]"></div>
     </section>
   );
 }

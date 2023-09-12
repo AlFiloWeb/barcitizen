@@ -58,7 +58,6 @@ export default function Front() {
           height={500}
           alt="bar citizen valencia logo"
         />
-        <div className="absolute w-full h-20 bottom-0 bg-gradient-to-t from-black from-[0%] to-transparent to-[40%]"></div>
       </div>
       <div className="w-full relative flex flex-col justify-center items-center bg-umbracle-1 bg-bottom bg-cover">
         <div className="absolute w-full h-60 top-0 bg-gradient-to-b from-black to-transparent"></div>
