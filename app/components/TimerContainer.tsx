@@ -72,18 +72,18 @@ export const TimerContainer = ({
   }
 
   return (
-    <div>
-      <div className="grid grid-cols-2 gap-4 py-6 px-10 md:flex md:items-center md:justify-between md:mt-2 rounded-xl md:px-6 md:py-8 ">
+    <div className="w-full lg:w-auto">
+      <div className="grid grid-cols-4 justify-around gap-2 px-5 lg:gap-4 lg:flex lg:items-center lg:justify-between rounded-xl lg:px-6 lg:py-8 ">
         <NumberBox num={days} unit="Días" flip={daysFlip} />
-        <span className="hidden text-5xl -mt-8 md:inline-block md:text-7xl font-normal text-gray-50 ">
+        <span className="hidden text-5xl -mt-8 lg:inline-block lg:text-7xl font-normal text-gray-50 ">
           :
         </span>
         <NumberBox num={hours} unit="Horas" flip={hoursFlip} />
-        <span className="hidden text-5xl -mt-8 md:inline-block md:text-7xl font-normal text-gray-50 ">
+        <span className="hidden text-5xl -mt-8 lg:inline-block lg:text-7xl font-normal text-gray-50 ">
           :
         </span>
         <NumberBox num={minutes} unit="Minutos" flip={minutesFlip} />
-        <span className="hidden text-5xl -mt-8 md:inline-block md:text-7xl font-normal text-gray-50 ">
+        <span className="hidden text-5xl -mt-8 lg:inline-block lg:text-7xl font-normal text-gray-50 ">
           :
         </span>
         <NumberBox num={seconds} unit="Segundos" flip={secondsFlip} />
