@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 interface numProp {
   num: string | number;
@@ -30,6 +30,3 @@ export const NumberBox = ({ num, unit, flip }: numProp) => {
     </div>
   );
 };
-function setTime(newTime: number) {
-  throw new Error("Function not implemented.");
-}

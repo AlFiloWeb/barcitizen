@@ -4,17 +4,17 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Portada", href: "#front", current: true },
-  { name: "Evento", href: "#event", current: false },
-  { name: "Programación", href: "#schedule", current: false },
-  { name: "Localización", href: "#location", current: false },
+  { name: "Portada", href: "#front", alias: "front" },
+  { name: "Evento", href: "#event", alias: "event" },
+  { name: "Programación", href: "#schedule", alias: "schedule" },
+  { name: "Localización", href: "#location", alias: "location" },
 ];
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Navigation() {
+export default function Navigation({currentSection}: any) {
   return (
     <Disclosure as="nav" className="bg-black sticky top-0 z-30">
       {({ open }) => (
@@ -47,12 +47,12 @@ export default function Navigation() {
                       key={navigation[0].name}
                       href={navigation[0].href}
                       className={classNames(
-                        navigation[0].current
+                        navigation[0].alias === currentSection
                           ? "bg-gray-900 text-white"
                           : "text-gray-300 hover:bg-gray-700 hover:text-white",
                         "rounded-md px-3 py-2 text-sm font-medium"
                       )}
-                      aria-current={navigation[0].current ? "page" : undefined}
+                      aria-current={navigation[0].alias === currentSection ? "page" : undefined}
                     >
                       {navigation[0].name}
                     </a>
@@ -60,12 +60,12 @@ export default function Navigation() {
                       key={navigation[1].name}
                       href={navigation[1].href}
                       className={classNames(
-                        navigation[1].current
+                        navigation[1].alias === currentSection
                           ? "bg-gray-900 text-white"
                           : "text-gray-300 hover:bg-gray-700 hover:text-white",
                         "rounded-md px-3 py-2 text-sm font-medium"
                       )}
-                      aria-current={navigation[1].current ? "page" : undefined}
+                      aria-current={navigation[0].alias === currentSection ? "page" : undefined}
                     >
                       {navigation[1].name}
                     </a>
@@ -82,12 +82,12 @@ export default function Navigation() {
                       key={navigation[2].name}
                       href={navigation[2].href}
                       className={classNames(
-                        navigation[2].current
+                        navigation[2].alias === currentSection
                           ? "bg-gray-900 text-white"
                           : "text-gray-300 hover:bg-gray-700 hover:text-white",
                         "rounded-md px-3 py-2 text-sm font-medium"
                       )}
-                      aria-current={navigation[2].current ? "page" : undefined}
+                      aria-current={navigation[0].alias === currentSection ? "page" : undefined}
                     >
                       {navigation[2].name}
                     </a>
@@ -95,12 +95,12 @@ export default function Navigation() {
                       key={navigation[3].name}
                       href={navigation[3].href}
                       className={classNames(
-                        navigation[3].current
+                        navigation[3].alias === currentSection
                           ? "bg-gray-900 text-white"
                           : "text-gray-300 hover:bg-gray-700 hover:text-white",
                         "rounded-md px-3 py-2 text-sm font-medium"
                       )}
-                      aria-current={navigation[3].current ? "page" : undefined}
+                      aria-current={navigation[0].alias === currentSection ? "page" : undefined}
                     >
                       {navigation[3].name}
                     </a>
@@ -118,12 +118,12 @@ export default function Navigation() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current
+                    item.alias === currentSection
                       ? "bg-gray-900 text-white"
                       : "text-gray-300 hover:bg-gray-700 hover:text-white",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}
-                  aria-current={item.current ? "page" : undefined}
+                  aria-current={item.alias === currentSection ? "page" : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>

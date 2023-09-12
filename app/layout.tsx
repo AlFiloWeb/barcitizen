@@ -2,8 +2,6 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import localFont from 'next/font/local'
-import Navigation from './components/Navigation'
-import Footer from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 const agencyGothicCTBold = localFont({
@@ -25,9 +23,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${inter.className} ${agencyGothicCTBold.variable}`}>
-        <Navigation />
         {children}
-        <Footer />
       </body>
     </html>
   )
