@@ -23,7 +23,7 @@ export default function Home() {
       >
         <Front />
       </InView>
-      <InView threshold={0.4}
+      <InView threshold={0.6}
         onChange={(inView, entry) =>
           inView ? setCurrentSection("event") : null
         }
