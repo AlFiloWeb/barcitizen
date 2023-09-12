@@ -81,7 +81,7 @@ export default function Front() {
                   alt="logo organización Al Filo"
                 />
               </div>
-              <div className="basis-1/5 p-[2%]">
+              <div className="basis-1/5">
                 <Image
                   src="/images/krakenostrum-logo.webp"
                   width={500}
@@ -105,7 +105,7 @@ export default function Front() {
                   alt="logo gabol"
                 />
               </div>
-              <div className="basis-1/5 p-[3%]">
+              <div className="basis-1/5">
                 <Image
                   src="/images/camping-logo.webp"
                   width={500}
