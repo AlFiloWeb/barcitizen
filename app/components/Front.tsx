@@ -62,7 +62,7 @@ export default function Front() {
       </div>
       <div className="w-full relative flex flex-col justify-center items-center bg-umbracle-1 bg-bottom bg-cover">
         <div className="absolute w-full h-60 top-0 bg-gradient-to-b from-black to-transparent"></div>
-        <div className="w-full bg-no-repeat bg-cover bg-bottom py-12 flex flex-col justify-center items-center gap-12 z-10">
+        <div className="w-full bg-no-repeat bg-cover bg-bottom pt-12 flex flex-col justify-center items-center gap-12 z-10">
           <p className="font-agencyGothicCTBold text-9xl text-white text-shadow">
             Faltan:
           </p>
@@ -73,7 +73,7 @@ export default function Front() {
             seconds={seconds}
           />
           <div className="wrapper-front-logo w-full flex justify-center items-center gap-5">
-            <div className="flex justify-between items-center max-w-6xl w-full p-5">
+            <div className="flex justify-between items-center max-w-6xl w-full p-5 pb-0">
               <div className="basis-1/5">
                 <Image
                   src="/images/alfilo-logo.webp"
