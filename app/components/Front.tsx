@@ -80,7 +80,7 @@ export default function Front() {
             seconds={seconds}
           />
           <div className="wrapper-front-logo w-full flex justify-center items-center gap-5">
-            <div className="flex justify-between items-center max-w-6xl w-full p-5 xl:p-0 pb-0">
+            <div className="flex justify-between items-center max-w-6xl w-full p-5 2xl:p-0 pb-0">
               {logos.map((item) => (
                 <div key={item.name}>
                 <Image
