@@ -16,28 +16,28 @@ export default function Home() {
     <main className="w-full">
       <Navigation currentSection={currentSection} />
 
-      <InView threshold={0.6}
+      <InView threshold={0.4}
         onChange={(inView, entry) =>
           inView ? setCurrentSection("front") : null
         }
       >
         <Front />
       </InView>
-      <InView threshold={0.6}
+      <InView threshold={0.4}
         onChange={(inView, entry) =>
           inView ? setCurrentSection("event") : null
         }
       >
         <Event />
       </InView>
-      <InView threshold={0.6}
+      <InView threshold={0.4}
         onChange={(inView, entry) =>
           inView ? setCurrentSection("schedule") : null
         }
       >
         <Schedule />
       </InView>
-      <InView threshold={0.6}
+      <InView threshold={0.4}
         onChange={(inView, entry) =>
           inView ? setCurrentSection("location") : null
         }
