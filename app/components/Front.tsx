@@ -5,11 +5,11 @@ import { TimerContainer } from "./TimerContainer";
 import { useEffect, useState } from "react";
 
 const logos = [
-  {src: "/images/alfilo-logo.webp", alt: "logo organización Al Filo"},
-  {src: "/images/krakenostrum-logo.webp", alt: "logo organización Krakenostrum"},
-  {src: "/images/umbracle-logo.webp", alt: "logo l'umbreacle"},
-  {src: "/images/gabol-logo.webp", alt: "logo gabol"},
-  {src: "/images/camping-logo.webp", alt: "logo camping puig campana"},
+  {name:"AlfiloLogo", src: "/images/alfilo-logo.webp", alt: "logo organización Al Filo"},
+  {name:"krakenostrumLogo", src: "/images/krakenostrum-logo.webp", alt: "logo organización Krakenostrum"},
+  {name:"umbracleLogo", src: "/images/umbracle-logo.webp", alt: "logo l'umbreacle"},
+  {name:"gabolLogo", src: "/images/gabol-logo.webp", alt: "logo gabol"},
+  {name:"campingLogo", src: "/images/camping-logo.webp", alt: "logo camping puig campana"},
 ];
 
 export default function Front() {
@@ -82,7 +82,7 @@ export default function Front() {
           <div className="wrapper-front-logo w-full flex justify-center items-center gap-5">
             <div className="flex justify-between items-center max-w-6xl w-full p-5 xl:p-0 pb-0">
               {logos.map((item) => (
-                <div key="">
+                <div key={item.name}>
                 <Image
                   src={item.src}
                   width={500}
