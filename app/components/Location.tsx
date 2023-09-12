@@ -2,7 +2,7 @@ export default function Location() {
   return (
     <section
       id="location"
-      className="relative flex justify-center p-5 pb-20 text-xl font-semibold"
+      className="relative flex justify-center p-5 xl:p-0 mb-20 text-xl font-semibold"
     >
       <div className="max-w-screen-2xl w-full">
         <p className="font-agencyGothicCTBold text-7xl w-full text-right sm:text-9xl text-[#4D1B75]">
